@@ -55,11 +55,9 @@ Hi {}, my name is {}!
 
 I am an Anime themed advance group management bot with a lot of Special Features.
 
-FREE MOVIES AND SERIES ON [HINDI K DRAMA](https://Hindikdrama.xyz)
-
 You can find my list of available commands with /help.
 
-Maintained by [Rajkumar](http://t.me/Awesome_RJ)
+Maintained by [GarimaQueen](http://t.me/GarimaQueen)
 
 """
 
@@ -87,9 +85,7 @@ SAITAMA_IMG = "https://telegra.ph/file/ac68ce78fd9c723304ada.jpg"
 CUTIEPINGIMG = "https://telegra.ph/file/213a05719a33e0e504cf9.gif"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Cutiepii is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Rajkumar
-There are two ways of supporting him; [PayPal](paypal.me/wadwialatech), or [Ko-Fi](ko-fi.com/Rajkumar)."""
+There are two ways of supporting him; [@Tinder_Queen](t.me/Tinder_Queens)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -207,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Cutiepii to your group",
+                            text="Add Jassica to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -217,12 +213,12 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/Techno_Ocean")
+                             url="https://t.me/Tinder_Queens")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="Source Code (Licensed Under GPLv3)",
-                             url="https://github.com/Rajkumar-27/CutiepiiRobot")
+                             text="Source Code",
+                             url="https://github.com/QueenArzoo/JassicaRobot2.0")
                      ]]))
     else:
         update.effective_message.reply_video(
